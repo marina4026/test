@@ -21,19 +21,7 @@ ob_start(); // begin collecting output
 
 
 
-$choice="view";
 
-switch ($choice){
-case "add":
-include ("add.php");
-break;
-case "view":
-include ("view.php");
-break;
-case "edit":
-include ("edit.php");
-break;
-}
 // If result matched $myusername and $mypassword, table row must be 1 row
 if($count==1)
 {
