@@ -20,7 +20,7 @@ ob_start(); // begin collecting output
 
 
 
-
+//selsect from 3 choice
 $choice="view";
 
 switch ($choice){
